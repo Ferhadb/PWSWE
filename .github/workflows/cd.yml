@@ -35,5 +35,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/pwswe:latest
-            ghcr.io/${{ github.repository_owner }}/pwswe:${{ github.sha }}
+            ghcr.io/ferhadb/pwswe:latest
+            ghcr.io/ferhadb/pwswe:${{ github.sha }}
